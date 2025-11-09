@@ -19,7 +19,7 @@ const LoginView = {
                                         <i class="bi bi-box-arrow-in-right"></i> Login
                                     </button>
                                 </form>
-                                <small class="text-muted">Hint: admin / 1234</small>
+                              
                             </div>
                         </div>
                     </div>

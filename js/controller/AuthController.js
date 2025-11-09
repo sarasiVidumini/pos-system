@@ -1,6 +1,6 @@
 const AuthController = {
     login(username, password) {
-        if (username === "admin" && password === "1234") {
+        if (username === "admin" && password === "admin@12") {
             sessionStorage.setItem("loggedIn", "true");
             DashboardView.load();
             return true;
