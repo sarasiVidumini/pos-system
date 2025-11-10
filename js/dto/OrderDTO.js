@@ -1,9 +1,9 @@
 class OrderDTO {
-    constructor(id, date, customerId, items = [], total = 0) {
-        this.id = id;
+    constructor(orderId, date, customerId, items, total) {
+        this.orderId = orderId;
         this.date = date;
         this.customerId = customerId;
-        this.items = items;      // array of {itemId, qty, price}
+        this.items = items; // Array of {code, name, qty, price}
         this.total = total;
     }
 }
